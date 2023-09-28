@@ -1,11 +1,13 @@
 import './App.css'
-import Simpleform from './components/Simpleform/Simpleform'
+import StateFullForm from './components/StateFullForm/StateFullForm'
+// import Simpleform from './components/Simpleform/Simpleform'
 
 function App() {
 
     return (
         <>
-            <Simpleform></Simpleform>
+            {/* <Simpleform></Simpleform> */}
+            <StateFullForm></StateFullForm>
         </>
     )
 }
