@@ -1,6 +1,6 @@
 import './App.css'
-import ReusableForm from './components/ReusableForm/ReusableForm';
-
+import Grandpa from './components/Grandpa/Grandpa'
+// import ReusableForm from './components/ReusableForm/ReusableForm';
 // import HookForm from './components/HookForm/HookForm'
 // import Refform from './components/Refform/Refform'
 // import StateFullForm from './components/StateFullForm/StateFullForm'
@@ -8,22 +8,23 @@ import ReusableForm from './components/ReusableForm/ReusableForm';
 
 function App() {
 
-
-    const handleSignupSubmit = (data) => {
-        console.log('sign up data:', data);
-    }
-
-    const handleUpdateProfile = (data) => {
-        console.log('sign up data:', data);
-    }
-
+    /* 
+        const handleSignupSubmit = (data) => {
+            console.log('sign up data:', data);
+        }
+    
+        const handleUpdateProfile = (data) => {
+            console.log('sign up data:', data);
+        }
+     */
     return (
         <>
+            <h1>Form Master</h1>
             {/* <Simpleform></Simpleform> */}
             {/* <StateFullForm></StateFullForm> */}
             {/* <Refform></Refform> */}
             {/* <HookForm></HookForm> */}
-            <ReusableForm formTitle={'Sign up'} handleSubmit={handleSignupSubmit}>
+            {/* <ReusableForm formTitle={'Sign up'} handleSubmit={handleSignupSubmit}>
                 <div>
                     <h2>Sign up</h2>
                     <p>please sign up right now</p>
@@ -34,7 +35,8 @@ function App() {
                     <h2>Update profile</h2>
                     <p>always keep your profile update</p>
                 </div>
-            </ReusableForm>
+            </ReusableForm> */}
+            <Grandpa></Grandpa>
         </>
     )
 }
