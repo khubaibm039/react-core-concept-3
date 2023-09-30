@@ -1,5 +1,6 @@
 import './App.css'
-import StateFullForm from './components/StateFullForm/StateFullForm'
+import Refform from './components/Refform/Refform'
+// import StateFullForm from './components/StateFullForm/StateFullForm'
 // import Simpleform from './components/Simpleform/Simpleform'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     return (
         <>
             {/* <Simpleform></Simpleform> */}
-            <StateFullForm></StateFullForm>
+            {/* <StateFullForm></StateFullForm> */}
+            <Refform></Refform>
         </>
     )
 }
